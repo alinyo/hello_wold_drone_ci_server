@@ -1,6 +1,11 @@
 package main
+
 import "fmt"
 
-func main (){
-	fmt.Println("Hello World")
+func sayhi() string {
+	return "hi"
+}
+
+func main() {
+	fmt.Println(sayhi())
 }
