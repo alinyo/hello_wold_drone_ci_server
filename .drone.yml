@@ -2,5 +2,5 @@ pipeline:
   testing:
     image: golang:1.10.0
     commands:
-      - echo "Hello World,Drone!"
+      - echo "Hello World, Drone!"
       - go test -v .
